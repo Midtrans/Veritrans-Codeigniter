@@ -62,7 +62,7 @@ class Snap extends CI_Controller {
 		$item_details = array ($item1_details, $item2_details);
 
 		// Optional
-		$billing_address = array(
+		$shipping_address = array(
 		  'first_name'    => "Andri",
 		  'last_name'     => "Litani",
 		  'address'       => "Mangga 20",
@@ -73,7 +73,7 @@ class Snap extends CI_Controller {
 		);
 
 		// Optional
-		$shipping_address = array(
+		$billing_address = array(
 		  'first_name'    => "Obet",
 		  'last_name'     => "Supriadi",
 		  'address'       => "Manggis 90",

@@ -232,7 +232,7 @@ public function vtweb_charge()
 You can see notification handler examples [here](https://github.com/harrypujianto/Veritrans-Codeigniter/blob/master/application/controllers/vtweb.php).
 ```php
 //you don't have to use the function name 'notification', it's just an example
-public function notificarion()
+public function notification()
 {
         $json_result = file_get_contents('php://input');
 		$result = json_decode($json_result);
